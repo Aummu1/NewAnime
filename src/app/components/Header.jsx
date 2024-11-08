@@ -29,7 +29,7 @@ function Header() {
 
     return (
         <div className="w-screen">
-            <div className="relative mx-auto flex justify-center flex-col px-4 sm:max-w-xl md:max-w-screen-xl md:flex-row">
+            <div className="relative mx-auto flex justify-center flex-col sm:max-w-xl md:max-w-screen-xl md:flex-row">
                 <div className="my-auto mx-auto mt-5 w-full max-w-xl md:mt-8 lg:max-w-screen-xl">
                     <div className="mb-10 lg:mb-0 lg:max-w-lg">
                         <div className="mb-6 max-w-xl">
