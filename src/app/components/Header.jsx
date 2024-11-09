@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Header() {
 
@@ -28,7 +28,7 @@ function Header() {
     };
 
     return (
-        <div className="w-screen">
+        <div className="w-screen ml-4">
             <div className="relative mx-auto flex justify-center flex-col sm:max-w-xl md:max-w-screen-xl md:flex-row">
                 <div className="my-auto mx-auto mt-5 w-full max-w-xl md:mt-8 lg:max-w-screen-xl">
                     <div className="mb-10 lg:mb-0 lg:max-w-lg">
@@ -41,7 +41,7 @@ function Header() {
                         </div>
 
                         {/* --------------------------------- */}
-                        <div className="card flex justify-center">
+                        {/* <div className="card flex justify-center">
                             <input
                                 className="input"
                                 type="checkbox"
@@ -89,6 +89,17 @@ function Header() {
                                 <div className="content">
                                     <span>かわいらしいので注意してください。</span>
                                 </div>
+                            </div>
+                        </div> */}
+
+                        <div className="book relative   ">
+                            <p className="mb-2 max-w-lg text-lg font-bold font-mono tracking-tight text-white-700 sm:text-2xl sm:leading-snug absolute bottom-0">
+                                " Kon🦊 "
+                            </p>
+                            <div className="cover relative">
+                                <p className="mb-2 max-w-lg text-lg font-bold font-mono tracking-tight text-white-700 sm:text-2xl sm:leading-snug absolute bottom-0">
+                                    Hover Me!
+                                </p>
                             </div>
                         </div>
 
