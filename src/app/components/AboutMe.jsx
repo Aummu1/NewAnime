@@ -11,7 +11,7 @@ function AboutMe() {
                 <div className="rounded-lg border bg-black px-4 pt-8 pb-10 shadow-lg">
                     <div className="relative mx-auto w-36 rounded-full">
                         <span className="absolute right-0 m-3 h-3 w-3 rounded-full bg-green-500 ring-2 ring-green-300 ring-offset-2"></span>
-                        <Image className="mx-auto h-auto w-full rounded-full" src="/image/pf.jfif" alt="Profile picture of Michael Simbal" width={300} height={200} />
+                        <Image className="mx-auto h-auto w-full rounded-full" src="/image/pf.png" alt="" width={300} height={200} />
                     </div>
                     <h1 className="my-1 text-center text-xl font-black leading-8 text-gray-700 font-mono">Aummu</h1>
                     <h3 className="font-lg text-semibold font-black text-center leading-6 text-gray-700 font-mono">Website Developer</h3>
