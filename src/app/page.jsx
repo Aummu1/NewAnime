@@ -9,12 +9,16 @@ import Frieren from "./components/Frieren";
 import AboutMe from "./components/AboutMe";
 import Work from "./components/Work";
 import Worktiktok from "./components/Worktiktok";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="w-full">
       <Nav />
-      <Header/>
+      <Header />
       <article id="ABOUT_US" className="mx-2 my-10 max-w-screen-lg rounded-md border border-gray-100 text-gray-700 shadow-md md:mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="p-5 md:w-4/6 md:p-8">
@@ -158,14 +162,16 @@ export default function Home() {
               <h2 className="text-xl text-gray-800 font-black md:text-2xl lg:text-4xl font-mono">Anime Blog</h2>
               <p className="mt-2 text-lg font-mono text-gray-800">All Anime Blog</p>
               <p className="mt-4 mb-4 max-w-md text-gray-500">In this blog, I will take you all to explore anime from my library. Gathered from watching various genres, including action, drama, fantasy, and romance, whether you like adventures in different-dimensional worlds. or heart-warming stories I'm sure there's something exciting waiting for you!</p>
-              <button className="button-genshin md:w-1/3">
-                <div className="circle-genshin"></div>
-                <span>View All</span>
-                <div className="light"></div>
-              </button>
+              <Link href="/Blog">
+                <button className="button-genshin md:w-1/3">
+                  <div className="circle-genshin"></div>
+                  <span>View All</span>
+                  <div className="light"></div>
+                </button>
+              </Link>
             </div>
             <div className="order-first ml-auto h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
-              <Image className="h-full w-full object-cover" src="/image/marin.png" loading="lazy" alt="marin" width={5000} height={5000}/>
+              <Image className="h-full w-full object-cover" src="/image/marin.png" loading="lazy" alt="marin" width={5000} height={5000} />
             </div>
           </div>
         </div>
@@ -175,26 +181,30 @@ export default function Home() {
         <div className="m-10 mx-4 max-w-screen-lg overflow-hidden rounded-xl border shadow-lg">
           <div className="flex flex-col overflow-hidden bg-black sm:flex-row md:h-80">
             <div className="order-first ml-auto h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
-              <Image className="h-full w-full object-cover" src="/image/999.png" loading="lazy" alt="999" width={5000} height={5000}/>
+              <Image className="h-full w-full object-cover" src="/image/999.png" loading="lazy" alt="999" width={5000} height={5000} />
             </div>
             <div className="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
               <h2 className="text-xl text-gray-800 font-black md:text-2xl lg:text-4xl font-mono">Did You Know?</h2>
               <p className="mt-2 text-lg font-mono text-gray-800">Anime Did You Know?</p>
               <p className="mt-4 mb-4 max-w-md text-gray-500">Welcome to Anime Did You Know? Here you'll find fun facts about anime that might surprise you! This menu was created to share interesting information and secrets behind anime that you may not have known before.</p>
-              <button className="button-genshin md:w-1/3">
-                <div className="circle-genshin"></div>
-                <span>View All</span>
-                <div className="light"></div>
-              </button>
+              <Link href="DYN">
+                <button className="button-genshin md:w-1/3">
+                  <div className="circle-genshin"></div>
+                  <span>View All</span>
+                  <div className="light"></div>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
       {/* --------------------------------------------------- */}
-        <AboutMe />
-        <Work />
-        <Worktiktok/>
+      <AboutMe />
+      <Work />
+      <Worktiktok />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -18,7 +18,7 @@ function AboutMe() {
                     <p className="text-center text-sm leading-6 text-gray-500 hover:text-gray-600">In this blog, I hope to share my experiences and thoughts about anime. along with discovering new stories together. If you want to get to know me Click here and join us on this journey together!</p>
                     <div className="flex justify-center">
                         <button className="button mt-5" onClick={() => window.open("https://exsinnot.com/Aummu/", "_blank")}>
-                            <span className="text">Click Me</span>
+                            <span className="text">View All</span>
                             <div className="liquid">
                                 <div className="bubble"></div>
                                 <div className="bubble"></div>

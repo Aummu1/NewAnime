@@ -29,7 +29,7 @@ function Nav() {
                         <li className="cursor-pointer"><a className="text-gray-600 hover:text-blue-600" onClick={() => scrollToSection("DID YOU KNOW")} >DID YOU KNOW</a></li>
                         <li className="cursor-pointer"><a className="text-gray-600 hover:text-blue-600" onClick={() => scrollToSection("ABOUT ME")} >ABOUT ME</a></li>
                         <li className="cursor-pointer"><a className="text-gray-600 hover:text-blue-600" onClick={() => scrollToSection("Workings")} >WORKINGS</a></li>
-                        <li className="cursor-pointer"><a className="text-gray-600 hover:text-blue-600" >CONTACT US</a></li>
+                        <li className="cursor-pointer"><a className="text-gray-600 hover:text-blue-600" onClick={() => scrollToSection("CONTACT")} >CONTACT</a></li>
                         {/* <li className="mt-2 sm:mt-0"><a className="rounded-xl border-2 border-blue-600 px-6 py-2 font-medium text-blue-600 hover:bg-blue-600 hover:text-white" href="#">Login</a></li> */}
                     </ul>
                 </nav>

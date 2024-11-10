@@ -24,7 +24,7 @@ function Worktiktok() {
                             <p className="text-3xl font-medium text-gray-600">1.9M</p>
                         </div>
                         <div className="flex flex-col items-center rounded-xl bg-gray-100 px-4 py-2">
-                            <p className="text-sm font-medium text-gray-500">Vedio</p>
+                            <p className="text-sm font-medium text-gray-500">Video</p>
                             <p className="text-3xl font-medium text-gray-600">292</p>
                         </div>
                     </div>
