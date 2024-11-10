@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Anime",
-  description: "Anime by Aummu",
+  title: "BlogAnime",
+  description: "BlogAnime by Aummu",
 };
 
 export default function RootLayout({ children }) {
