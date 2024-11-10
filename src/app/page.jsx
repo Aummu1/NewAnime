@@ -25,7 +25,6 @@ export default function Home() {
             <span className="rounded-md bg-red-600 px-2 py-1 text-xs uppercase text-white">important</span>
             <p className="mt-2 text-xl font-black md:mt-6 md:text-4xl font-mono">About Us</p>
             <p className="mt-3 text-white font-mono">BlogAnime was created as a personal space for storing anime archives, both those I've watched and those I haven't. It also serves as a place to recommend anime to others who are looking for something new to watch and discover what they might like.</p>
-
             <button className="button mt-5" onClick={() => window.open("#", "_blank")}>
               <span className="text">Click Me</span>
               <div className="liquid">
